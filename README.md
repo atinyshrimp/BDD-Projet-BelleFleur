@@ -17,6 +17,10 @@ Grâce à cette application, le fleuriste peut gérer sa boutique, son stock, se
   + Ouvrir "WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe"
 
 ## Visuel de l'application
+***Ce que montre la vidéo :*** *Comment créer un bouquet, remplir son contenu, valider sa création et voir le contenu de ce bouquet.*
+
+
+![alt text](https://github.com/atinyzen/BDD-Projet-BelleFleur/blob/main/Visual_demo.gif)
 
 ## Spécifications techniques
 voir *Note_technique_LAPILUS_B.pdf*
