@@ -64,9 +64,27 @@ Cette gestion passe par 4 modules : Boutiques, Clients, Produits et Commandes.*
 ### Statistiques
 #### Module supplémentaire pour avoir une vue globale sur tous les magasins.
 *Ce module regroupe les informations importantes par rapport aux données des boutiques sur une période donnée :* <br>
-+ *Prix moyen du bouquet acheté*
++ *Prix moyen du bouquet acheté*,
++ *Nombre de commandes*,
++ *Chiffre d'affaires total, toutes les boutiques combinées (par défaut)*,
++ *Les ventes totales sur la période donnée*,
++ *Le top 3 des meilleurs clients*,
++ *La boutique avec le meilleur chiffre d'affaires sur la période donnée*,
++ *Le top 5 des produits vendus*
 
 <br>
 
 + Choix de la période donnée
   + Par défaut, lors de l'ouverture du module, la période est les ***trente derniers jours***
+  + D'autres options sont mises à disposition : *sept derniers jours, le mois courant et les six derniers mois*.
+  + Si les options ci-dessus ne correspondent pas aux attentes de l'admin, il peut choisir sa période en appuyant sur *Personnalisé*. Il choisit le début et la fin de la période voulue, et il confirme son choix en appuyant sur le ✓
++ Choix de la boutique
+  + Les données affichées par l'interface graphique sont celles de **toutes les boutiques** combinées lors de l'ouverture du module.
+  + Les flèches directionnelles permettent de changer la boutique sur laquelle sont basées les données ; les boutiques sont listées par ordre alphabétique.
++ Le top 5 des produits
+  + Par défaut, lors de l'ouverture du module, le classement ne prend en compte que les accessoires et les fleurs.
+  + De la même manière que pour les boutiques, les flèches directionnelles permettent de basculer entre plusieurs types de classement :
+    + *Top 5 des accessoires*,
+    + *Top 5 des fleurs*,
+    + *Top 5 des bouquets*,
+    + On peut également revenir au mode par défaut, *Top 5 des produits*.
