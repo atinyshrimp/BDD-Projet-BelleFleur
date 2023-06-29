@@ -135,7 +135,7 @@ namespace WindowsFormsApp1.Pages
         private void tbShop_TextChanged(object sender, EventArgs e)
         {
             _searchFilter = tbShop.Text;
-            _query = $"SELECT id_boutique, nom_boutique, adresse_boutique, ville_boutique, COUNT(courriel) FROM boutique b LEFT JOIN client c ON b.id_boutique=c.id_boutique GROUP BY b.id_boutique WHERE CONCAT(nom_boutique, adresse_boutique, ville_boutique) LIKE \"%{_searchFilter}%\" GROUP BY b.id_boutique;";
+            _query = $"SELECT b.id_boutique, nom_boutique, adresse_boutique, ville_boutique, COUNT(courriel) FROM boutique b LEFT JOIN client c ON b.id_boutique=c.id_boutique WHERE CONCAT(nom_boutique, adresse_boutique, ville_boutique) LIKE \"%{_searchFilter}%\" GROUP BY b.id_boutique;";
             LoadShops(_query);
         }
         #endregion
